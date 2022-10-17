@@ -83,8 +83,6 @@ Congratulations! Now you have your containerized Java Sping Boot App deployed on
 
 - Log into the Azure Portal
 - Nagivate the the "petclinic_spoke_eastus" Resource Group
-- 
-
 - Goto GitHub Actions and clink on your latest Deployment
 - Scroll down to the section titled "build_java_aks-microsvr_app"
 - Open the Section....you will see a table, that list the EXTERNAL-IP.
