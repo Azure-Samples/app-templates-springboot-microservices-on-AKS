@@ -32,7 +32,7 @@ Tech stack:
 This is a quickstart template. It deploys the following:
 
 * Deploying PetClinic App:
-  * Progres SQL Database configuration
+  * Postgres SQL Database configuration
   * Provisioning Azure Infra Services with BICEP
   * Create the Microservices Spring-Petclinic - build with Maven
   * Create an Azure Container Registry
@@ -45,7 +45,7 @@ This is a quickstart template. It deploys the following:
   * CI/CD on GitHub Action
   * CI/CD in action with the app
 
-> Refer to the [App Templates](https://github.com/microsoft/App-Templates) repo Readme for more samples that are compatible with [AzureAccelerators](https://github.com/Azure/azure-dev/).
+> Refer to the [App Templates](https://github.com/microsoft/App-Templates) repo Readme for more samples that are compatible with [azure dev cli](https://github.com/Azure/azure-dev/).
 
 ## Prerequisites
 - Local shell with Azure CLI installed or [Azure Cloud Shell](https://ms.portal.azure.com/#cloudshell/)
@@ -59,7 +59,7 @@ This is a quickstart template. It deploys the following:
 1.  Fork the repository by clicking the 'Fork' button on the top right of the page.
 This creates a local copy of the repository for you to work in. 
 
-2.  Configure GITHUB Actions:  Follow the insturctions in the [GITHUB_ACTIONS_CONFIG.md file](https://github.com/Azure-Samples/app-templates-springboot-app-on-ARO/blob/main/.github/GITHUB_ACTIONS_CONFIG.md) (Located in the .github folder.)
+2.  Configure GITHUB Actions:  Follow the instructions in the [GITHUB_ACTIONS_CONFIG.md file](https://github.com/Azure-Samples/app-templates-springboot-app-on-ARO/blob/main/.github/GITHUB_ACTIONS_CONFIG.md) (Located in the .github folder.)
 
 3.  Run the workflow 
    * If workflows are enabled for this repository it should run automatically. To enable the workflow run automatically, Go to Actions and enable the workflow if needed.
