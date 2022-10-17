@@ -1,0 +1,6 @@
+[submodule "aks-construction"]
+	path = aks-construction
+	url = https://github.com/Azure/AKS-Construction.git
+[submodule "spring-petclinic-cloud"]
+	path = spring-petclinic-cloud
+	url = https://github.com/spring-petclinic/spring-petclinic-cloud.git

@@ -1,57 +1,92 @@
-# Project Name
+# Spring Boot PetClinic Microserices Application Deployed to Azure Kubernetes Service (AKS)
+## Description 
+In this sample app template of the PetClinic Microservices application (a Spring Boot based app). Each of the Application Microservices are containerized and deployed to an Azure Kubernetes Service (AKS) cluster secured by Azure Firewall
 
-(short, 1-3 sentenced, description of the project)
+## Deploy Spring Boot apps using Azure Services:
 
-## Features
+--
+Tech stack:
 
-This project framework provides the following features:
+- Azure 
+- Azure Infra (Hub & Spoke Toppology)
+- Azure Infra (VNet Peering)
+- Azure User Defined Routing (UDR)
+- Azure Application Inisghts
+- Azure Log Analytics
+- Azure Application Gateway
+- Azure Fire Wall
+- Azure Bastion
+- Azure Container Registry (ACR)
+- Azure Kubernetes Service (AKS) Cluster
+- Azure PostgreSQL DB
+- Github Actions
+- Bicep
+- Docker
+- Maven
+- Springboot
 
-* Feature 1
-* Feature 2
-* ...
+---
+
+## Introduction
+
+This is a quickstart template. It deploys the following:
+
+* Deploying PetClinic App:
+  * Progres SQL Database configuration
+  * Provisioning Azure Infra Services with BICEP
+  * Create the Microservices Spring-Petclinic - build with Maven
+  * Create an Azure Container Registry
+  * Push your app to the container registry
+  * Create an Azure Kubernetes Services (AKS) Cluster
+  * Deploy each of the Microservies to your AKS cluster
+  * Verify your container images
+
+* PetClinic on Automated CI/CD with GitHub Action  
+  * CI/CD on GitHub Action
+  * CI/CD in action with the app
+
+> Refer to the [App Templates](https://github.com/microsoft/App-Templates) repo Readme for more samples that are compatible with [AzureAccelerators](https://github.com/Azure/azure-dev/).
+
+## Prerequisites
+- Local shell with Azure CLI installed or [Azure Cloud Shell](https://ms.portal.azure.com/#cloudshell/)
+- Azure Subscription, on which you are able to create resources and assign permissions
+  - View your subscription using ```az account show``` 
+  -  If you don't have an account, you can [create one for free](https://azure.microsoft.com/free).  
 
 ## Getting Started
+### Fork the repository
 
-### Prerequisites
+1.  Fork the repository by clicking the 'Fork' button on the top right of the page.
+This creates a local copy of the repository for you to work in. 
 
-(ideally very short, if any)
+2.  Configure GITHUB Actions:  Follow the insturctions in the [GITHUB_ACTIONS_CONFIG.md file](https://github.com/Azure-Samples/app-templates-springboot-app-on-ARO/blob/main/.github/GITHUB_ACTIONS_CONFIG.md) (Located in the .github folder.)
 
-- OS
-- Library version
-- ...
+3.  Run the workflow 
+   * If workflows are enabled for this repository it should run automatically. To enable the workflow run automatically, Go to Actions and enable the workflow if needed.
+   * Workflow can be manually run 
+     + Under your repository name, click Actions .
+     + In the left sidebar, click the workflow "Build and Deploy Application".
+     + Above the list of workflow runs, select Run workflow .
+     + Use the Branch dropdown to select the workflow's main branch, Click Run workflow .
+  
 
-### Installation
+# Pet Clinic Website
 
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
+<img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
 
 
-## Demo
+Congratulations! Now you have your containerized Java Sping Boot App deployed on AKS with supported JDK pushed to your ACR. 
 
-A demo app is included to show how to use the project.
+# Pet Clinic Website - IP Address 
 
-To run the demo, follow these steps:
+4. If you wish to view the PetClinic Deployment, you have the following options:
 
-(Add steps to start up the demo)
+- Log into the Azure Portal
+- Nagivate the the "petclinic_spoke_eastus" Resource Group
+- 
 
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+- Goto GitHub Actions and clink on your latest Deployment
+- Scroll down to the section titled "build_java_aks-microsvr_app"
+- Open the Section....you will see a table, that list the EXTERNAL-IP.
+- The EXTERNAL-IP will relfect the location of the Deployment.  
+- You can utilze the EXTERNAL-IP to view the deployed image. 
