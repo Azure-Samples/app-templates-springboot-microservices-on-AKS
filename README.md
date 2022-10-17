@@ -25,6 +25,8 @@ Tech stack:
 - Maven
 - Springboot
 
+<img width="1042" alt="petclinic-screenshot" src="https://github.com/Azure-Samples/app-templates-springboot-microservices-on-AKS/infra/aks-bicep/AKSMicro-Arch.jpg">
+
 ---
 
 ## Introduction
