@@ -25,7 +25,7 @@ The newly created GitHub repo uses GitHub Actions to deploy Azure resources and 
    ```
 2. Store the output JSON as the value of a GitHub secret named 'AZURE_CREDENTIALS'
    + Under your repository name, click Settings. 
-   + In the "Security" section of the sidebar, select Secrets. 
+   + In the "Security" section of the sidebar, select Secrets, and Actions. 
    + At the top of the page, click New repository secret
    + Provide the secret name as AZURE_CREDENTIALS
    + Add the output JSON as secret value
