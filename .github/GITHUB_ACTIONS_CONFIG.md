@@ -65,7 +65,7 @@ The newly created GitHub repo uses GitHub Actions to deploy Azure resources and 
 
   + On th Menbers Page...click "+Select Members"
 
-  + On the Select Members menu..type the name of the "Service Pricicpal" in the select box
+  + On the Select Members menu..type the name of the "Service Principal" in the select box (**Note** this should be the name of your newly created Service Principal.)
 
   + At the bottom of the menu, click Select
 
