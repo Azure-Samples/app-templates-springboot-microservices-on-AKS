@@ -61,7 +61,7 @@ This is a quickstart template. It deploys the following:
 1.  Fork the repository by clicking the 'Fork' button on the top right of the page.
 This creates a local copy of the repository for you to work in. 
 
-2.  Configure GITHUB Actions:  Follow the instructions in the [GITHUB_ACTIONS_CONFIG.md file](https://github.com/Azure-Samples/app-templates-springboot-microservices-on-AKS/blob/main/.github/GITHUB_ACTIONS_CONFIG.md) (Located in the .github folder.)
+2.  Configure GITHUB Actions:  Follow the instructions in the [GITHUB_ACTIONS_CONFIG.md file](.github/GITHUB_ACTIONS_CONFIG.md) (Located in the .github folder.)
 
 3.  Run the workflow 
    * If workflows are enabled for this repository it should run automatically. To enable the workflow run automatically, Go to Actions and enable the workflow if needed.
