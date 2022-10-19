@@ -53,7 +53,7 @@ The newly created GitHub repo uses GitHub Actions to deploy Azure resources and 
 
   + Since you just created it, the Service Principal will have Contributor Access.
 
-  + In the Top Menu...Click "+Add", and select Ass Role Assignment from the drop down menu...
+  + In the Top Menu...Click "+Add", and select App Role Assignment from the drop down menu...
 
   + In the Role Serach Box.... type "User Access Administrator"
 
