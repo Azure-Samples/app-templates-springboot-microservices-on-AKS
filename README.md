@@ -34,7 +34,7 @@ Tech stack:
 This is a quickstart template. It deploys the following:
 
 * Deploying PetClinic App:
-  * Postgres SQL Database configuration
+  * PostgreSQL Database configuration
   * Provisioning Azure Infra Services with BICEP
   * Create the Microservices Spring-Petclinic - build with Maven
   * Create an Azure Container Registry
