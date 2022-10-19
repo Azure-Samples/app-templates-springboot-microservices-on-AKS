@@ -25,12 +25,12 @@ The newly created GitHub repo uses GitHub Actions to deploy Azure resources and 
    ```
 2. Store the output JSON as the value of a GitHub secret named 'AZURE_CREDENTIALS'
    + Under your repository name, click Settings. 
-   + In the "Security" section of the sidebar, select Secrets, and select Actions. 
+   + In the "Security" section of the sidebar, select Secrets. Make sure you select Actions in Secrets.
    + At the top of the page, click New repository secret
    + Provide the secret name as AZURE_CREDENTIALS
    + Add the output JSON as secret value
   
-### Rewuired Parameter Definitions 
+### Required Parameter Definitions 
 
 3. The following  parameters are required.
 
@@ -43,7 +43,7 @@ The newly created GitHub repo uses GitHub Actions to deploy Azure resources and 
 
 4. Verify your Azure Permissions ( You must have Contributor, Owner and User Access Administrator roles)
       
-  * Azure Red Hat OpenShift requires roleAssignment/write permission, so make sure  your Azure user account has Microsoft.Authorization/roleAssignments/write permissions, such as User Access Administrator or Owner and Contributor. More info can be found in the documentation for [Azure built-in roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).
+  * Azure Red Hat OpenShift requires roleAssignment/write permission, so make sure your Azure user account has Microsoft.Authorization/roleAssignments/write permissions, such as User Access Administrator or Owner and Contributor. More info can be found in the documentation for [Azure built-in roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).
 
   + Go to your Subcription, look to the left hand side menu and select Access Control (IAM).
 
