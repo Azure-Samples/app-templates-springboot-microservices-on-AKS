@@ -4,7 +4,7 @@ In this sample app template of the PetClinic Microservices application (a Spring
 
 ## Deploy Spring Boot apps using Azure Services:
 
---
+---
 Tech stack:
 
 - Azure 
@@ -64,12 +64,12 @@ This creates a local copy of the repository for you to work in.
 2.  Configure GITHUB Actions:  Follow the instructions in the [GITHUB_ACTIONS_CONFIG.md file](.github/GITHUB_ACTIONS_CONFIG.md) (Located in the .github folder.)
 
 3.  Run the workflow 
-   * If workflows are enabled for this repository it should run automatically. To enable the workflow run automatically, Go to Actions and enable the workflow if needed.
-   * Workflow can be manually run 
-     + Under your repository name, click Actions .
-     + In the left sidebar, click the workflow "Build and Deploy Application".
-     + Above the list of workflow runs, select Run workflow .
-     + Use the Branch dropdown to select the workflow's main branch, Click Run workflow .
+    * If workflows are enabled for this repository it should run automatically. To enable the workflow run automatically, Go to Actions and enable the workflow if needed.
+    * Workflow can be manually run 
+        + Under your repository name, click Actions .
+        + In the left sidebar, click the workflow "Build and Deploy Application".
+        + Above the list of workflow runs, select Run workflow .
+        + Use the Branch dropdown to select the workflow's main branch, Click Run workflow .
   
 
 # Pet Clinic Website
@@ -83,7 +83,7 @@ Congratulations! Now you have your containerized Java Sping Boot App deployed on
 
 4. If you wish to view the PetClinic Deployment, you have the following options:
 
-- Log into the Azure Portal
-- Nagivate the the "petclinic_spoke_eastus" Resource Group
-- Select the AKS Cluster
-- At the top of the page select "Connect" and follow the instructions listed on the Connect to AKS-petclinic
+    - Log into the Azure Portal
+    - Nagivate the the "petclinic_spoke_eastus" Resource Group
+    - Select the AKS Cluster
+    - At the top of the page select "Connect" and follow the instructions listed on the Connect to AKS-petclinic
