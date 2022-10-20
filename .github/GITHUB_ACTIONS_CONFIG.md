@@ -25,12 +25,12 @@ The newly created GitHub repo uses GitHub Actions to deploy Azure resources and 
    ```
 2. Store the output JSON as the value of a GitHub secret named 'AZURE_CREDENTIALS'
    + Under your repository name, click Settings. 
-   + In the "Security" section of the sidebar, select Secrets, and Actions. 
+   + In the "Security" section of the sidebar, select Secrets. Make sure you select Actions in Secrets.
    + At the top of the page, click New repository secret
    + Provide the secret name as AZURE_CREDENTIALS
    + Add the output JSON as secret value
   
-### Rewuired Parameter Definitions 
+### Required Parameter Definitions 
 
 3. The following  parameters are required.
 
@@ -49,7 +49,7 @@ The newly created GitHub repo uses GitHub Actions to deploy Azure resources and 
 
   + Select Role Assignments.
 
-  + Type in the name of your Service Principle, check the access levels.
+  + Type in the name of your Service Principal, check the access levels.
 
   + Since you just created it, the Service Principal will have Contributor Access.
 
@@ -57,7 +57,7 @@ The newly created GitHub repo uses GitHub Actions to deploy Azure resources and 
 
   + In the Role Serach Box.... type "User Access Administrator"
 
-  + In the Details column, click "View"
+  + In the Details column, click "View" to review permissions to be assigned.
 
   + At the bottom of the page, click "Select Role"
 
