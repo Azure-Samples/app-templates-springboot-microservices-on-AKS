@@ -6,7 +6,7 @@
 # - Push your app to the container registry
 # - Create an Azure Kubernetes Services (AKS) Cluster
 # - Deploy each of the Microservies to your AKS cluster
-# - Verify your container images
+#- Verify your container images
 
 # Secrets required to be in place:
 # - AZURE_CREDENTIALS 
