@@ -1,6 +1,6 @@
 # Spring Boot PetClinic Microservices Application Deployed to Azure Kubernetes Service (AKS)
 
-> Note:
+> [!NOTE]
 > For Spring Boot Microservices Applications, we recommend using Azure Spring Apps. However, you can still use Azure Kubernetes Services as a destination. 
 
 ## Description 
